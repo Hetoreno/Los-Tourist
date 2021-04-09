@@ -82,8 +82,6 @@ ul a{
     -webkit-text-fill-color: transparent;
 }
 
-
-
 .social-links{
     width:20%;
 }
@@ -116,9 +114,7 @@ ul a{
     width:20%;
 }
 
-nav{
-    margin-left:10rem;
-}
+
 
 /* Navigation End */
 
@@ -335,9 +331,6 @@ nav{
     margin-left:9rem;
 }
 
-.right{
-}
-
 .info h4{
     font-size:4rem;
 }
@@ -354,15 +347,9 @@ nav{
     color:#E557D7;
     font-size:2.5rem;
 }
-
-
 /* About End */
 
 /* Locations Start */
-#locations{
-
-}
-
 .location-title{
     display: flex;
     align-items: center;
@@ -560,7 +547,6 @@ nav{
 }
 
 .event-card button:hover{
-    font-size:2.3rem;
     transition: ease-out 0.4s all;
     background: linear-gradient(180deg, #fccc92 0%, rgb(221, 46, 204) 100%)
 }
@@ -686,7 +672,7 @@ nav{
     color: black;
     margin:2rem;
     font-weight: bold;
-    font-size:2.5rem;
+    font-size:2rem;
 }
 
 .footer-nav a:hover{
@@ -697,15 +683,243 @@ nav{
 /* Footer End */
 
 /* Tablet */
-@media screen and (max-width:1024px) and (min-width:501px){
+@media screen and (max-width:1024px) and (min-width:641px){
     html{
         font-size: 70%;
     }
 
+    .headi{
+        width:90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .logo{
+        margin:2rem 0;
+    }
+
+    .logo h1{
+        font-size: 5rem;
+    }
+
+    .nav-selection{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .nav-selection li{
+        margin: 1rem 2rem;
+    }
+
+    .links{
+        margin-top: 2rem;
+        font-size: 2.5rem;
+    }
+
+    .intro-description{
+        min-height:70vh;
+    }
+
+    .move{
+        width: 80%;
+    }
+
+    .move p{
+        line-height: 1.5;
+        color:#dadada;
+    }
+
+    .move button{
+        margin-top: 4rem;
+    }
+
+    .intro::before{
+        display: none;
+    }
+
+    /* Tablet About-Us */
+    .about-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-container{
+        width: 50%;
+        min-height: 10vh;
+    }
+
+    .info-container{
+        position: relative;
+        min-height: 30vh;
+        width: 40%;
+        text-align: center;
+    }
+
+    .info-container p{
+        margin:none;
+
+    }
+
+    .card{
+        width:45%;
+    }
+
+    .info{
+        margin:0;
+    }
+
+    .img{
+        width:45%;
+        margin:0;
+        display: flex;
+        justify-content: center;
+    }
+    .left{
+        margin-left:0;
+    }
+
+    .info h4{
+        margin-top: 1.5rem;
+        font-size:3rem;
+    }
+
+    /* Picture grid tab sect */
+    .picture-grid{
+        width:80%;
+    }
+
+    .pic-box{
+        width:45%;
+    }
+
+    /* Event cards tab sec */
+    .event-cards{
+        width:90%;
+    }
+
+    .event-card h4{
+        padding:1rem 3rem;
+        font-size: 1.7rem;
+    }
+
+    .event-card button{
+        padding: 1rem 3rem;
+    }
+
+    /* Gallery tab sec*/
+    .gallery-info{
+        text-align: center;
+    }
+    
+    .gallery-pics{
+        min-height: 5vh;
+        width:90%;
+    }
+
+    .gallery-pics img{
+        width: 100%;
+        height:30vh;
+        object-fit: cover;
+    }
+
+    /* Footer tab sec */
+    .social-logos a{
+        font-size: 3.5rem;
+    }
+
+    .footer-wrap p{
+        text-align: center;
+    }
+
 }
 /* Mobile */
-@media screen and (max-width:500px){
+@media screen and (max-width:640px){
     html{
         font-size:45%;
     }
-}
+
+    /* NAV humburger */
+    .nav-selection{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* Intro mobile sec */
+    .move{
+        width:100%;
+    }
+
+    .move p{
+        line-height: 3.5rem;
+    }
+    .intro::before{
+        display: none;
+    }
+
+    /* About us mobile sec */
+    .about-container{
+        width: 100%;
+    }
+    .info-container{
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+
+    .img-container{
+        width: 100%;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .info{
+        margin: 0;
+    }
+    
+    .info h4{
+        margin-top: 1.5rem;
+    }
+
+    .img{
+        display: flex;
+        justify-content: center;
+    }
+    /* Location mobile sec */
+    .list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .picture-grid{
+        width:100%;
+    }
+
+    .pic-box{
+        width: 80%;
+    }
+    /* Event mobile sec */
+    .event-cards{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: auto;
+    }
+
+    .event-card{
+        width: 100%;
+        margin: 1rem;
+        min-height: 50vh;
+    }
+    /* Gallery mobile sec */
+    /* Footer mobile sec */
+    .footer-nav{
+        display: flex;
+        flex-wrap:wrap;
+    }
+}   
