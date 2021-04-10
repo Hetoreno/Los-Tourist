@@ -887,11 +887,7 @@ ul a{
         margin-top: 1.5rem;
     }
 
-    .img{
-        height:25%;
-        display: flex;
-        justify-content: center;
-    }
+    
     /* Location mobile sec */
     .list{
         display: flex;
