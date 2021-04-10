@@ -917,9 +917,40 @@ ul a{
         min-height: 50vh;
     }
     /* Gallery mobile sec */
+    .gallery-info{
+        text-align: center;
+    }
+
+    .gallery-pics{
+        
+        width: 100%;
+    }
+
+    .gallery-pics ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
     /* Footer mobile sec */
     .footer-nav{
+        margin:1rem;
         display: flex;
         flex-wrap:wrap;
+    }
+
+    .footer-social{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-nav li{
+        margin: 1rem 0;
+    }
+
+    .social-logos a{
+        margin:1rem;
+    }
+
+    .footer-wrap p{
+        text-align: center;
     }
 }   
