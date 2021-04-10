@@ -888,7 +888,7 @@ ul a{
     }
 
     .img{
-        width: 50%;
+        height: 25%;
         margin:0;
         display: flex;
         justify-content: center;
