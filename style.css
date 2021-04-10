@@ -877,7 +877,6 @@ ul a{
 
     .card{
         width: 100%;
-        min-height: 15vh;
     }
 
     .info{
@@ -888,7 +887,12 @@ ul a{
         margin-top: 1.5rem;
     }
 
-    
+    .img{
+        width: 50%;
+        margin:0;
+        display: flex;
+        justify-content: center;
+    }
     /* Location mobile sec */
     .list{
         display: flex;
