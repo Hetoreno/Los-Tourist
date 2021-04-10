@@ -888,6 +888,7 @@ ul a{
     }
 
     .img{
+        height:25%;
         display: flex;
         justify-content: center;
     }
