@@ -877,6 +877,7 @@ ul a{
 
     .card{
         width: 100%;
+        min-height: 15vh;
     }
 
     .info{
