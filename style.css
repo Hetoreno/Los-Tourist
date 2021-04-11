@@ -892,9 +892,6 @@ ul a{
         justify-content: center;
     }
 
-    .img img{
-        max-width: 20%;
-    }
     /* Location mobile sec */
     .list{
         display: flex;
