@@ -890,6 +890,9 @@ ul a{
         margin-top: 1.5rem;
     }
 
+    .info p{
+        padding:0;
+    }
     .img{
         display: flex;
         justify-content: center;
