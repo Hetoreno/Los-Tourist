@@ -186,7 +186,7 @@ ul a{
 .to-top{
     position: fixed;
     bottom: 32px;
-    right:32px;
+    right:25px;
     font-size:5rem;
     text-align: center;
     color:white;
@@ -890,6 +890,10 @@ ul a{
     .img{
         display: flex;
         justify-content: center;
+    }
+
+    .img img{
+        max-width: 20%;
     }
     /* Location mobile sec */
     .list{
