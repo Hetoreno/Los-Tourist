@@ -891,6 +891,10 @@ ul a{
         display: flex;
         justify-content: center;
     }
+    
+    .cards img{
+        max-width:60%;
+    }
 
     /* Location mobile sec */
     .list{
