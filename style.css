@@ -896,13 +896,7 @@ ul a{
         justify-content: center;
     }
 
-    .cards img{
-        max-width:80%;
-    }
     
-    .card{
-        min-height: 15vh;
-    }
     
     /* Location mobile sec */
     .list{
