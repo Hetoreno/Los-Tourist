@@ -279,7 +279,6 @@ ul a{
 }
 
 .cards{
-    min-height:90vh;
     width:100%;
     display: flex;
     flex-wrap: wrap;
@@ -290,6 +289,7 @@ ul a{
     margin: 1rem;
     background: white;
     width:35%;
+    min-height:30vh;
     display: flex;
     align-items: center;
     justify-content: center;
